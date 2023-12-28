@@ -1,5 +1,7 @@
 # The Mythbound Project
 
+Initially started by Jay Telford and meant primarily for use on Mythbound Games, this project has now been licensed under the MIT license and transitioned into a community based project that is available to everyone.  
+
 ## Overview
 The Mythbound Project is a multifaceted community initiative that encompasses web development, bot integration, and content automation. It's designed to provide a seamless and dynamic experience for its users by leveraging various technologies and services.
 
@@ -44,5 +46,4 @@ The Mythbound Project is a multifaceted community initiative that encompasses we
 ## Future Updates
 - The project's README will be updated with more comprehensive information in the near future.
 
-The Mythbound Project represents a comprehensive and innovative community effort that integrates web development, automation, and Discord bot functionality to enhance user experiences across multiple platforms. It's a testament to your dedication to creating a dynamic and engaging community space.
-
+The Mythbound Project represents a comprehensive and innovative community effort that integrates web development, automation, and Discord bot functionality to enhance the  experiences of its users across multiple platforms.
