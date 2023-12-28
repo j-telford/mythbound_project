@@ -1,26 +1,48 @@
-# The Mythboud Project
+# The Mythbound Project
 
-# Development
+## Overview
+The Mythbound Project is a multifaceted community initiative that encompasses web development, bot integration, and content automation. It's designed to provide a seamless and dynamic experience for its users by leveraging various technologies and services.
 
-A "dev" branch will be created from the "main" branch. Subsequent branches will be created from the "dev" branch to manage different parts of the project:
+## Components
+1. **Website (https://project.mythbound.online):**
+   - The project includes a dedicated website accessible via [https://project.mythbound.online](https://project.mythbound.online). This website serves as the central hub for project information and interaction.
 
-* Website
-* Web App (Bot Portal)
-* Bot
-* Database
+2. **Discord Bot:**
+   - A Discord bot is a vital part of the project, capable of performing various tasks and integrations within Discord servers.
 
-## Feature Branches
+3. **Web App (Bot Portal - https://botportal.mythbound.online):**
+   - The project's web app, known as the Bot Portal, is accessible via [https://botportal.mythbound.online](https://botportal.mythbound.online). This portal acts as a control panel for managing and configuring the Discord bot.
 
-Development will occur on individual features one at a time, each having its own branch created from its respective parent part.
+## Functionality
+- **Discord Bot Integration:**
+  - The Discord bot integrates with your Discord server to provide specific features:
+    - It scrapes your Twitter profile for the latest tweets and posts links to them in a designated channel.
+    - It scrapes your Instagram profile for the latest posts and shares links to them in a designated channel.
+    - It monitors an RSS feed from your website and posts links to new articles in a specified channel.
+  - The bot performs these tasks automatically at regular intervals (e.g., every 4 hours) while avoiding duplication.
 
-Once the first part (Website) is completed, and all feature branches have been merged into their parent, the "website" branch will be merged into the "dev" branch. After merging all feature branches of the website part into their respective parent part, the website part of the project will be merged into the "dev" branch, marking the project's first alpha release.
+- **Database Management:**
+  - The project includes a MySQL database named "discord_bot_social_cache" with three tables: RSS, Twitter, and Instagram. These tables store links to posts, tweets, or articles to avoid duplicate postings.
 
-When all parts of the project have been merged into the "development" branch, a new branch named "testing" will be created from the "development" branch, and the project will transition to its first beta release.
+- **Message Processing:**
+  - The bot processes messages within Discord servers to:
+    - Convert inline date commands (!date:YYYY-MM-DD) into Discord timestamps and replace the original message.
+    - Convert inline time commands (!time:HHMM) into Discord timestamps.
+    - Convert role mentions (!role:role_name) into @mentions, replacing the original message.
 
-### Time Scale
+## Project Stages
+- Development of the project occurs in stages:
+  - A "dev" branch is created from the "main" branch.
+  - Sub-branches are created for different project parts: Website, Web App, Bot, and Database.
+  - Features are developed individually within their respective sub-branches.
+  - Once features are complete, they are merged into their parent branches.
+  - The project moves from alpha to beta release stages after all parts are merged into the "development" branch.
 
-I anticipate that this project will require most of 2024 to reach its first beta release.
+## Time Scale
+- The project is expected to progress throughout most of 2024 to reach its first beta release.
 
-# Future Updates
+## Future Updates
+- The project's README will be updated with more comprehensive information in the near future.
 
-I will soon update this README with more detailed information about the project.
+The Mythbound Project represents a comprehensive and innovative community effort that integrates web development, automation, and Discord bot functionality to enhance user experiences across multiple platforms. It's a testament to your dedication to creating a dynamic and engaging community space.
+
