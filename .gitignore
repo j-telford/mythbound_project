@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # Build Artifacts 
-misc/releases/templates/
+misc/releases/template/
